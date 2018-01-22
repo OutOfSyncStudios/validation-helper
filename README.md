@@ -11,7 +11,7 @@
 [![Dependencies badge](https://david-dm.org/MediaXPost/lodashext/status.svg)](https://david-dm.org/MediaXPost/lodashext?view=list)
 
 
-`validation-helper` is a set of simple data validation and conversion tools for string input data that uses Validator.js
+`validation-helper` is a set of simple data validation and conversion tools for string input data that uses [Validator.js](https://www.npmjs.com/package/validator)
 
 # [Installation](#installation)
 <a name="installation"></a>
@@ -24,20 +24,20 @@ npm install @mediaxpost/validation-helper
 <a name="usage"></a>
 
 ```js
-const validator = require('@mediaxpost/validation-helper');
+const validationHelper = require('@mediaxpost/validation-helper');
 
-console.log(validator.validate('1.23', 'float'));
-console.log(validator.validate('qwerty', 'float'));
-console.log(validator.validate('qwerty', 'string'));
-console.log(validator.convert('1.23', 'float'));
-console.log(validator.strToBool('yes'));
-console.log(validator.strToBool('True'));
+console.log(validationHelper.validate('1.23', 'float'));
+console.log(validationHelper.validate('qwerty', 'float'));
+console.log(validationHelper.validate('qwerty', 'string'));
+console.log(validationHelper.convert('1.23', 'float'));
+console.log(validationHelper.strToBool('yes'));
+console.log(validationHelper.strToBool('True'));
 ```
 
 # [API Reference](#api)
 <a name="api"></a>
 
-## validator.validate(value, type [, options]) ⇒ boolean
+## validationHelper.validate(value, type [, options]) ⇒ boolean
 Test is the string `value` is of the `type` specified. Additional [Validator.js](https://www.npmjs.com/package/validator) `options` may be passed for added constraints.
 
 | Type | Desc | Options |
@@ -55,7 +55,7 @@ Test is the string `value` is of the `type` specified. Additional [Validator.js]
 | `'any'` | Any possible value | N |
 
 ```js
-validator.validate('1.23', 'float');
+validationHelper.validate('1.23', 'float');
 ```
 
 **Output**:
@@ -63,11 +63,11 @@ validator.validate('1.23', 'float');
 true
 ```
 
-## validator.convert(value, type) ⇒ mixed
+## validationHelper.convert(value, type) ⇒ mixed
 Attempts to convert the provided string `value` to the `type` specified. If the `type` is unknown, then the original `value` is returned.  The `type` can be `int`, `float`, or `bool`. For `int` and `float` values `NaN` is returned if the value can not be converted.
 
 ```js
-validator.convert('1234', 'int');
+validationHelper.convert('1234', 'int');
 ```
 
 **Output**:
@@ -75,7 +75,7 @@ validator.convert('1234', 'int');
 1234
 ```
 
-## validator.strToBool(str) ⇒ boolean
+## validationHelper.strToBool(str) ⇒ boolean
 Converts the string value to a boolean. `true`, `yes`, `1` return a value `true`. All other value return `false`.
 
 # [License](#license)

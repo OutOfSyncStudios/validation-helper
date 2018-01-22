@@ -1,14 +1,14 @@
 # validation-helper
 
-[![NPM](https://nodei.co/npm/@mediaxpost/lodashext.png?downloads=true)](https://nodei.co/npm/@mediaxpost/lodashext/)
+[![NPM](https://nodei.co/npm/@mediaxpost/validation-helper.png?downloads=true)](https://nodei.co/npm/@mediaxpost/validation-helper/)
 
-[![Actual version published on npm](http://img.shields.io/npm/v/@mediaxpost/lodashext.svg)](https://www.npmjs.org/package/@mediaxpost/lodashext)
-[![Travis build status](https://travis-ci.org/MediaXPost/lodashExt.svg)](https://www.npmjs.org/package/@mediaxpost/lodashext)
-[![Total npm module downloads](http://img.shields.io/npm/dt/@mediaxpost/lodashext.svg)](https://www.npmjs.org/package/@mediaxpost/lodashext)
-[![Package Quality](http://npm.packagequality.com/badge/@mediaxpost/lodashext.png)](http://packagequality.com/#?package=@mediaxpost/lodashext)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/198aa1923d284affae5516a3563ce2d5)](https://www.codacy.com/app/chronosis/lodashExt?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=MediaXPost/lodashExt&amp;utm_campaign=Badge_Grade)
-[![Codacy Coverage Badge](https://api.codacy.com/project/badge/Coverage/198aa1923d284affae5516a3563ce2d5)](https://www.codacy.com/app/chronosis/lodashExt?utm_source=github.com&utm_medium=referral&utm_content=MediaXPost/lodashExt&utm_campaign=Badge_Coverage)
-[![Dependencies badge](https://david-dm.org/MediaXPost/lodashext/status.svg)](https://david-dm.org/MediaXPost/lodashext?view=list)
+[![Actual version published on npm](http://img.shields.io/npm/v/@mediaxpost/validation-helper.svg)](https://www.npmjs.org/package/@mediaxpost/validation-helper)
+[![Travis build status](https://travis-ci.org/MediaXPost/validation-helper.svg)](https://www.npmjs.org/package/@mediaxpost/validation-helper)
+[![Total npm module downloads](http://img.shields.io/npm/dt/@mediaxpost/validation-helper.svg)](https://www.npmjs.org/package/@mediaxpost/validation-helper)
+[![Package Quality](http://npm.packagequality.com/badge/@mediaxpost/validation-helper.png)](http://packagequality.com/#?package=@mediaxpost/validation-helper)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/198aa1923d284affae5516a3563ce2d5)](https://www.codacy.com/app/chronosis/validation-helper?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=MediaXPost/validation-helper&amp;utm_campaign=Badge_Grade)
+[![Codacy Coverage Badge](https://api.codacy.com/project/badge/Coverage/198aa1923d284affae5516a3563ce2d5)](https://www.codacy.com/app/chronosis/validation-helper?utm_source=github.com&utm_medium=referral&utm_content=MediaXPost/validation-helper&utm_campaign=Badge_Coverage)
+[![Dependencies badge](https://david-dm.org/MediaXPost/validation-helper/status.svg)](https://david-dm.org/MediaXPost/validation-helper?view=list)
 
 
 `validation-helper` is a set of simple data validation and conversion tools for string input data that uses [Validator.js](https://www.npmjs.com/package/validator)

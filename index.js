@@ -1,7 +1,7 @@
 // validation-helper.js
 
-const __ = require('@mediaxpost/lodashext')
-const validator = require('validator')
+const __ = require('@mediaxpost/lodashext');
+const validator = require('validator');
 const uuidAPIKey = require('uuid-apikey');
 
 class Validator {

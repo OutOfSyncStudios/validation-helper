@@ -6,8 +6,8 @@
 [![Travis build status](https://travis-ci.org/MediaXPost/validation-helper.svg)](https://www.npmjs.org/package/@mediaxpost/validation-helper)
 [![Total npm module downloads](http://img.shields.io/npm/dt/@mediaxpost/validation-helper.svg)](https://www.npmjs.org/package/@mediaxpost/validation-helper)
 [![Package Quality](http://npm.packagequality.com/badge/@mediaxpost/validation-helper.png)](http://packagequality.com/#?package=@mediaxpost/validation-helper)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/198aa1923d284affae5516a3563ce2d5)](https://www.codacy.com/app/chronosis/validation-helper?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=MediaXPost/validation-helper&amp;utm_campaign=Badge_Grade)
-[![Codacy Coverage Badge](https://api.codacy.com/project/badge/Coverage/198aa1923d284affae5516a3563ce2d5)](https://www.codacy.com/app/chronosis/validation-helper?utm_source=github.com&utm_medium=referral&utm_content=MediaXPost/validation-helper&utm_campaign=Badge_Coverage)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/a6899212e1c746f09de8088a59ae6cfc)](https://www.codacy.com/app/chronosis/validation-helper?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=MediaXPost/validation-helper&amp;utm_campaign=Badge_Grade)
+[![Codacy Coverage Badge](https://api.codacy.com/project/badge/Coverage/a6899212e1c746f09de8088a59ae6cfc)](https://www.codacy.com/app/chronosis/validation-helper?utm_source=github.com&utm_medium=referral&utm_content=MediaXPost/validation-helper&utm_campaign=Badge_Coverage)
 [![Dependencies badge](https://david-dm.org/MediaXPost/validation-helper/status.svg)](https://david-dm.org/MediaXPost/validation-helper?view=list)
 
 

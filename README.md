@@ -37,7 +37,7 @@ console.log(validationHelper.strToBool('True'));
 # [API Reference](#api)
 <a name="api"></a>
 
-## validationHelper.validate(value, type [, options]) ⇒ boolean
+## validationHelper.validate(value, type [, options]) &#x27fe; boolean
 Test is the string `value` is of the `type` specified. Additional [Validator.js](https://www.npmjs.com/package/validator) `options` may be passed for added constraints.
 
 | Type | Desc | Options |
@@ -63,7 +63,7 @@ validationHelper.validate('1.23', 'float');
 true
 ```
 
-## validationHelper.convert(value, type) ⇒ mixed
+## validationHelper.convert(value, type) &#x27fe; mixed
 Attempts to convert the provided string `value` to the `type` specified. If the `type` is unknown, then the original `value` is returned.  The `type` can be `int`, `float`, or `bool`. For `int` and `float` values `NaN` is returned if the value can not be converted.
 
 ```js
@@ -75,7 +75,7 @@ validationHelper.convert('1234', 'int');
 1234
 ```
 
-## validationHelper.strToBool(str) ⇒ boolean
+## validationHelper.strToBool(str) &#x27fe; boolean
 Converts the string value to a boolean. `true`, `yes`, `1` return a value `true`. All other value return `false`.
 
 # [License](#license)

@@ -81,4 +81,4 @@ Converts the string value to a boolean. `true`, `yes`, `1` return a value `true`
 # [License](#license)
 <a name="license"></a>
 
-Copyright (c) 2018 Jay Reardon -- Licensed under the MIT license.
+Copyright (c) 2018,2019 Jay Reardon -- Licensed under the MIT license.

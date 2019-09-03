@@ -1,6 +1,6 @@
 {
   "name": "@outofsync/validation-helper",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "A set of simple data validation and conversion tools",
   "main": "index.js",
   "scripts": {
@@ -17,7 +17,7 @@
   },
   "publishConfig": {
     "access": "public"
-  },  
+  },
   "keywords": [
     "lodash",
     "extension",

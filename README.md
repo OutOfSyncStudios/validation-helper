@@ -6,8 +6,8 @@
 [![Travis build status](https://travis-ci.org/OutOfSyncStudios/validation-helper.svg)](https://www.npmjs.org/package/@outofsync/validation-helper)
 [![Total npm module downloads](http://img.shields.io/npm/dt/@outofsync/validation-helper.svg)](https://www.npmjs.org/package/@outofsync/validation-helper)
 [![Package Quality](http://npm.packagequality.com/badge/@outofsync/validation-helper.png)](http://packagequality.com/#?package=@outofsync/validation-helper)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/a6899212e1c746f09de8088a59ae6cfc)](https://www.codacy.com/app/chronosis/validation-helper?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=OutOfSyncStudios/validation-helper&amp;utm_campaign=Badge_Grade)
-[![Codacy Coverage Badge](https://api.codacy.com/project/badge/Coverage/a6899212e1c746f09de8088a59ae6cfc)](https://www.codacy.com/app/chronosis/validation-helper?utm_source=github.com&utm_medium=referral&utm_content=OutOfSyncStudios/validation-helper&utm_campaign=Badge_Coverage)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/a6899212e1c746f09de8088a59ae6cfc)](https://www.codacy.com/app/OutOfSyncStudios/validation-helper?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=OutOfSyncStudios/validation-helper&amp;utm_campaign=Badge_Grade)
+[![Codacy Coverage Badge](https://api.codacy.com/project/badge/Coverage/a6899212e1c746f09de8088a59ae6cfc)](https://www.codacy.com/app/OutOfSyncStudios/validation-helper?utm_source=github.com&utm_medium=referral&utm_content=OutOfSyncStudios/validation-helper&utm_campaign=Badge_Coverage)
 [![Dependencies badge](https://david-dm.org/OutOfSyncStudios/validation-helper/status.svg)](https://david-dm.org/OutOfSyncStudios/validation-helper?view=list)
 
 
@@ -76,7 +76,7 @@ validationHelper.convert('1234', 'int');
 ```
 
 ## validationHelper.strToBool(str) &#x27fe; boolean
-Converts the string value to a boolean. `true`, `yes`, `1` return a value `true`. All other value return `false`.
+Converts the string value to a boolean. `true`, `yes`, `1` return a value `true`. All other values return `false`.
 
 # [License](#license)
 <a name="license"></a>

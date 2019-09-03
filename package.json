@@ -15,6 +15,9 @@
     "type": "git",
     "url": "git+https://chronosis@github.com/OutOfSyncStudios/validation-helper.git"
   },
+  "publishConfig": {
+    "access": "public"
+  },  
   "keywords": [
     "lodash",
     "extension",

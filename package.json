@@ -19,8 +19,8 @@
     "access": "public"
   },
   "keywords": [
-    "lodash",
-    "extension",
+    "validator",
+    "validation",
     "utility"
   ],
   "author": "Jay Reardon",

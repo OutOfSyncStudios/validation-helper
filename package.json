@@ -1,5 +1,5 @@
 {
-  "name": "@mediaxpost/validation-helper",
+  "name": "@outofsync/validation-helper",
   "version": "1.1.1",
   "description": "A set of simple data validation and conversion tools",
   "main": "index.js",
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://chronosis@github.com/MediaXPost/validation-helper.git"
+    "url": "git+https://chronosis@github.com/OutOfSyncStudios/validation-helper.git"
   },
   "keywords": [
     "lodash",
@@ -23,24 +23,24 @@
   "author": "Jay Reardon",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/MediaXPost/validation-helper/issues"
+    "url": "https://github.com/OutOfSyncStudios/validation-helper/issues"
   },
-  "homepage": "https://github.com/MediaXPost/validation-helper#readme",
+  "homepage": "https://github.com/OutOfSyncStudios/validation-helper#readme",
   "dependencies": {
-    "@mediaxpost/lodashext": "^1.2.1",
-    "uuid-apikey": "^1.4.2",
-    "validator": "^10.10.0"
+    "@outofsync/lodash-ex": "^1.3.2",
+    "uuid-apikey": "^1.4.4",
+    "validator": "^10.11.0"
   },
   "devDependencies": {
     "chai": "^4.2.0",
     "codacy-coverage": "^3.4.0",
-    "eslint": "^5.12.0",
-    "gulp": "^4.0.0",
-    "gulp-eslint": "^5.0.0",
-    "gulp-mocha": "^6.0.0",
-    "gulp-prettier": "^2.0.0",
-    "mocha": "^5.2.0",
-    "nyc": "^13.1.0",
-    "prettier": "^1.15.3"
+    "eslint": "^6.3.0",
+    "gulp": "^4.0.2",
+    "gulp-eslint": "^6.0.0",
+    "gulp-mocha": "^7.0.1",
+    "gulp-prettier": "^2.1.0",
+    "mocha": "^6.2.0",
+    "nyc": "^14.1.1",
+    "prettier": "^1.18.2"
   }
 }

@@ -1,14 +1,14 @@
 # validation-helper
 
-[![NPM](https://nodei.co/npm/@mediaxpost/validation-helper.png?downloads=true)](https://nodei.co/npm/@mediaxpost/validation-helper/)
+[![NPM](https://nodei.co/npm/@outofsync/validation-helper.png?downloads=true)](https://nodei.co/npm/@outofsync/validation-helper/)
 
-[![Actual version published on npm](http://img.shields.io/npm/v/@mediaxpost/validation-helper.svg)](https://www.npmjs.org/package/@mediaxpost/validation-helper)
-[![Travis build status](https://travis-ci.org/MediaXPost/validation-helper.svg)](https://www.npmjs.org/package/@mediaxpost/validation-helper)
-[![Total npm module downloads](http://img.shields.io/npm/dt/@mediaxpost/validation-helper.svg)](https://www.npmjs.org/package/@mediaxpost/validation-helper)
-[![Package Quality](http://npm.packagequality.com/badge/@mediaxpost/validation-helper.png)](http://packagequality.com/#?package=@mediaxpost/validation-helper)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/a6899212e1c746f09de8088a59ae6cfc)](https://www.codacy.com/app/chronosis/validation-helper?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=MediaXPost/validation-helper&amp;utm_campaign=Badge_Grade)
-[![Codacy Coverage Badge](https://api.codacy.com/project/badge/Coverage/a6899212e1c746f09de8088a59ae6cfc)](https://www.codacy.com/app/chronosis/validation-helper?utm_source=github.com&utm_medium=referral&utm_content=MediaXPost/validation-helper&utm_campaign=Badge_Coverage)
-[![Dependencies badge](https://david-dm.org/MediaXPost/validation-helper/status.svg)](https://david-dm.org/MediaXPost/validation-helper?view=list)
+[![Actual version published on npm](http://img.shields.io/npm/v/@outofsync/validation-helper.svg)](https://www.npmjs.org/package/@outofsync/validation-helper)
+[![Travis build status](https://travis-ci.org/OutOfSyncStudios/validation-helper.svg)](https://www.npmjs.org/package/@outofsync/validation-helper)
+[![Total npm module downloads](http://img.shields.io/npm/dt/@outofsync/validation-helper.svg)](https://www.npmjs.org/package/@outofsync/validation-helper)
+[![Package Quality](http://npm.packagequality.com/badge/@outofsync/validation-helper.png)](http://packagequality.com/#?package=@outofsync/validation-helper)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/a6899212e1c746f09de8088a59ae6cfc)](https://www.codacy.com/app/chronosis/validation-helper?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=OutOfSyncStudios/validation-helper&amp;utm_campaign=Badge_Grade)
+[![Codacy Coverage Badge](https://api.codacy.com/project/badge/Coverage/a6899212e1c746f09de8088a59ae6cfc)](https://www.codacy.com/app/chronosis/validation-helper?utm_source=github.com&utm_medium=referral&utm_content=OutOfSyncStudios/validation-helper&utm_campaign=Badge_Coverage)
+[![Dependencies badge](https://david-dm.org/OutOfSyncStudios/validation-helper/status.svg)](https://david-dm.org/OutOfSyncStudios/validation-helper?view=list)
 
 
 `validation-helper` is a set of simple data validation and conversion tools for string input data that uses [Validator.js](https://www.npmjs.com/package/validator)
@@ -17,14 +17,14 @@
 <a name="installation"></a>
 
 ```shell
-npm install @mediaxpost/validation-helper
+npm install @outofsync/validation-helper
 ```
 
 # [Usage](#usage)
 <a name="usage"></a>
 
 ```js
-const validationHelper = require('@mediaxpost/validation-helper');
+const validationHelper = require('@outofsync/validation-helper');
 
 console.log(validationHelper.validate('1.23', 'float'));
 console.log(validationHelper.validate('qwerty', 'float'));
@@ -81,4 +81,5 @@ Converts the string value to a boolean. `true`, `yes`, `1` return a value `true`
 # [License](#license)
 <a name="license"></a>
 
-Copyright (c) 2018,2019 Jay Reardon -- Licensed under the MIT license.
+Copyright (c) 2018, 2019 Jay Reardon
+Copyright (c) 2019 Out of Sync Studios LLC -- Licensed under the MIT license.

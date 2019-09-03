@@ -1,6 +1,6 @@
 // validation-helper.js
 
-const __ = require('@mediaxpost/lodashext');
+const __ = require('@outofsync/lodash-ex');
 const validator = require('validator');
 const uuidAPIKey = require('uuid-apikey');
 

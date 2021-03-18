@@ -1,8 +1,15 @@
 // validation-helper.js
-
-const __ = require('@outofsync/lodash-ex');
 const validator = require('validator');
-const uuidAPIKey = require('uuid-apikey');
+
+function isNullish(value) {
+  return (value === undefined || value === null);
+}
+
+function isBase32ApiKey(value) {
+  const test1 = /[a-zA-Z0-9]{28}/
+  const test2 = /[a-zA-Z0-9]{7}-[a-zA-Z0-9]{7}-[a-zA-Z0-9]{7}-[a-zA-Z0-9]{7}/
+  return (test1.test(value) || test2.test(value))
+}
 
 class Validator {
   constructor() {}
@@ -37,7 +44,7 @@ class Validator {
         test = validator.isFQDN(value.toString(), options);
         break;
       case 'apikey':
-        test = uuidAPIKey.isAPIKey(value.toString());
+        test = isBase32ApiKey(value.toString());
         break;
       case 'string':
       case 'any':
@@ -49,7 +56,7 @@ class Validator {
 
   convert(value, type) {
     let out = value;
-    if (__.hasValue(out)) {
+    if (!isNullish(out)) {
       switch (type) {
         case 'int':
         case 'integer':

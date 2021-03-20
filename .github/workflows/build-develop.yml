@@ -50,6 +50,13 @@ jobs:
           NPM_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
           CODACY_PROJECT_TOKEN:  ${{ secrets.CODACY_PROJECT_TOKEN }}
 
+      - name: Show stuff
+        shell: bash
+        run: |
+          key=$(echo $SLACK_BOT_TOKEN)
+          echo "===$key$==="
+        env:
+          SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
       - name: Notify slack success
         if: success()
         uses: voxmedia/github-action-slack-notify-build@v1

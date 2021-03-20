@@ -30,7 +30,7 @@
   },
   "homepage": "https://github.com/OutOfSyncStudios/validation-helper#readme",
   "dependencies": {
-    "validator": "^10.11.0"
+    "validator": "^13.5.2"
   },
   "devDependencies": {
     "chai": "^4.2.0",

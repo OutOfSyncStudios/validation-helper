@@ -6,9 +6,9 @@ function isNullish(value) {
 }
 
 function isBase32ApiKey(value) {
-  const test1 = /[a-zA-Z0-9]{28}/
-  const test2 = /[a-zA-Z0-9]{7}-[a-zA-Z0-9]{7}-[a-zA-Z0-9]{7}-[a-zA-Z0-9]{7}/
-  return (test1.test(value) || test2.test(value))
+  const test1 = /[a-zA-Z0-9]{28}/;
+  const test2 = /[a-zA-Z0-9]{7}-[a-zA-Z0-9]{7}-[a-zA-Z0-9]{7}-[a-zA-Z0-9]{7}/;
+  return (test1.test(value) || test2.test(value));
 }
 
 class Validator {

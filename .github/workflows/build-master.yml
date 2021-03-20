@@ -1,4 +1,4 @@
-name: Build and Test Master
+name: Master build
 
 on:
   push:
@@ -7,7 +7,7 @@ on:
 
 jobs:
   master-push:
-    name: 'Develop Testing'
+    name: 'Master Build'
     runs-on: ubuntu-latest
     strategy:
       matrix:
@@ -67,9 +67,9 @@ jobs:
         if: failure()
         uses: voxmedia/github-action-slack-notify-build@v1
         with:
-          message_id: ${{ steps.slack.outputs.message_id }}      
+          message_id: ${{ steps.slack.outputs.message_id }}
           channel: ${{ matrix.slack-channel }}
           status: FAILED
           color: danger
         env:
-          SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}        
+          SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}

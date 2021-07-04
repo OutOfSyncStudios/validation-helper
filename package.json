@@ -1,6 +1,6 @@
 {
   "name": "@outofsync/validation-helper",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "A set of simple data validation and conversion tools",
   "main": "index.js",
   "scripts": {

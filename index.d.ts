@@ -1,0 +1,11 @@
+declare module '@outofsync/validation-helper';
+
+declare class Validator {
+  constructor(): void;
+  validate(value: any, type: string, options: any): boolean;
+  convert(value: any, type: string): any;
+  strToBool(str: string): boolean;
+}
+
+declare const obj: Validator;
+export default obj;

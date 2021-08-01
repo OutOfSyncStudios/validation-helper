@@ -1,7 +1,7 @@
 declare module '@outofsync/validation-helper';
 
 declare class Validator {
-  constructor(): void;
+  constructor();
   validate(value: any, type: string, options: any): boolean;
   convert(value: any, type: string): any;
   strToBool(str: string): boolean;
